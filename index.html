@@ -1,0 +1,41 @@
+<!--<main>
+   <header>
+        <div class="close-area"></div>
+        <input placeholder="https://..." value="https://mariosouto.com" />
+    </header>
+      <iframe src="https://mariosouto.com"></iframe> 
+</main> -->
+<!DOCTYPE html>
+<html lang="en">
+<!--<link rel="stylesheet" href="./style.css" /> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniBrowserExperimental</title>
+   
+<body>
+   
+<script>
+    var aba1={
+        titulo: 'titulo da aba 1 ',
+        url: 'http://172.18.2.246:8090/scriptcase/devel/iface/index.php?rand=6590d68ff50d6ba2'
+    };
+    var aba2={
+        titulo: 'titulo da aba 2 ',
+        url: 'http://172.18.2.246:8090/sla/inicio/'
+    };
+    const abas = [
+                    aba1,
+                    aba2
+                ];
+    for(aba of abas){
+ 
+        document.body.innerHTML=document.body.innerHTML+ `<li><a href="${aba.url}">${aba.titulo}</a></li>`;
+    }
+ 
+</script>
+
+</body>
+</html>
