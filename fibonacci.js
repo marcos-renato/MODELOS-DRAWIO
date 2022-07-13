@@ -36,4 +36,4 @@ function topdown2(n){
 }
 
 
-console.log("F("+5+")="+topdown(5))
+console.log("F("+6+")="+topdown(6))
